@@ -13,4 +13,5 @@ function getUserIpAddr(){
 }
 print "Hello. The invoker IP address is " . $_SERVER['REMOTE_ADDR'] . "\n";
 print "Hello. The Real IP address is " . getUserIpAddr() . "\n";
+print "Hello. The X IP address is " . $_SERVER['HTTP_X_CLIENT_IP']  . "\n";
 ?>
